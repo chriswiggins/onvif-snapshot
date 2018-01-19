@@ -1,0 +1,39 @@
+{
+  "name": "onvif-snapshot",
+  "version": "1.0.0",
+  "description": "Include this library to take a snapshot of a camera with the onvif library",
+  "main": "libsnapshot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriswiggins/onvif-snapshot.git"
+  },
+  "keywords": [
+    "onvif",
+    "snapshot"
+  ],
+  "author": "Chris Wiggins <chris@wiggins.nz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chriswiggins/onvif-snapshot/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeff Galbraith",
+      "email": "jgalbraith@intelliviewtech.com",
+      "url": "http://intelliviewtech.com"
+    }
+  ],
+  "homepage": "https://github.com/chriswiggins/onvif-snapshot#readme",
+  "peerDependencies": {
+    "onvif": "^0.5.5"
+  },
+  "devDependencies": {
+    "onvif": "^0.5.4"
+  },
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
