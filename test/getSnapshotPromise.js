@@ -11,7 +11,6 @@ const Cam = new Onvif.Cam({
 
 	try{
 		var data = await this.getSnapshot();
-		var data = await this.getSnapshot();
 	}catch(e){
 		return console.error(e);
 	}
