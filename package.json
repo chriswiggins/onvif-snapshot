@@ -2,7 +2,7 @@
   "name": "onvif-snapshot",
   "version": "1.0.0",
   "description": "Include this library to take a snapshot of a camera with the onvif library",
-  "main": "libsnapshot.js",
+  "main": "lib/snapshot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
