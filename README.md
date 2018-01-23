@@ -11,11 +11,11 @@ Returns an object:
 
 ## Examples
 
-###Promise
+### Promise
 
 ```javascript
 const Onvif = require('onvif');
-require('../lib/snapshot.js');
+require('onvif-snapshot');
 
 const Cam = new Onvif.Cam({
 	hostname: process.env.HOSTNAME,
@@ -35,11 +35,11 @@ const Cam = new Onvif.Cam({
 }); 
 ```
 
-###Callback
+### Callback
 
 ```javascript
 const Onvif = require('onvif');
-require('../lib/snapshot.js');
+require('onvif-snapshot');
 
 const Cam = new Onvif.Cam({
 	hostname: process.env.HOSTNAME,
