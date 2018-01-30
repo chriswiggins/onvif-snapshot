@@ -1,6 +1,11 @@
 # onvif-snapshot
 Include this library to take a snapshot of a camera with the onvif library.
 
+## Installation
+```
+npm install --save onvif onvif-snapshot
+```
+
 Returns an object:
 ```
 {
@@ -11,11 +16,11 @@ Returns an object:
 
 ## Examples
 
-###Promise
+### Promise
 
 ```javascript
 const Onvif = require('onvif');
-require('../lib/snapshot.js');
+require('onvif-snapshot');
 
 const Cam = new Onvif.Cam({
 	hostname: process.env.HOSTNAME,
@@ -35,11 +40,11 @@ const Cam = new Onvif.Cam({
 }); 
 ```
 
-###Callback
+### Callback
 
 ```javascript
 const Onvif = require('onvif');
-require('../lib/snapshot.js');
+require('onvif-snapshot');
 
 const Cam = new Onvif.Cam({
 	hostname: process.env.HOSTNAME,
