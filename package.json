@@ -31,9 +31,9 @@
     "onvif": "^0.5.5"
   },
   "devDependencies": {
-    "onvif": "^0.5.4"
+    "onvif": "^0.6.2"
   },
   "dependencies": {
-    "request": "^2.83.0"
+    "request": "^2.88.0"
   }
 }
